@@ -30,7 +30,7 @@ const NewsItems = (props) => {
   };
 
   useEffect(() => {
-    document.title = `${capitalizeFirstLetter(props.category)} - NewsMonkey`;
+    document.title = `${capitalizeFirstLetter(props.category)} - Atom News`;
     updateNews();
     // eslint-disable-next-line
   }, []);

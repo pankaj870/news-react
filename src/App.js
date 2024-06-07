@@ -7,9 +7,9 @@ import NavBar from "./components/NavBar"
 
 const App =() => {
 
-let [progress,setProgress] = useState(10)
-
- const apiKey ='410f4e5bfaef4b2db8d9bf974245c52c';
+let [progress,setProgress] = useState(10);
+const apiKey = "410f4e5bfaef4b2db8d9bf974245c52c";
+ 
 const setchange =(progress)=> {
   setProgress(progress)
 }
@@ -22,9 +22,7 @@ const setchange =(progress)=> {
 //       mode = "light";
 //     }
 //   };
-
- 
-    
+;
     return (
       <div className="nav-container">
         <Router> <LoadingBar
